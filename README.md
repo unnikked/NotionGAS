@@ -12,6 +12,7 @@ To use the NotionGAS, you need the following:
 
 1. A Notion integration token.
 2. Google Apps Script environment.
+3. [Load the library](https://developers.google.com/apps-script/guides/libraries#add_a_library_to_your_script_project) with script id `1Vj2DDUHd1CXlBelJdzDCR1ttFLj4tmb35R_lrmxRal-dGPU-mOgqqtoF`
 
 ### Integration
 
@@ -160,3 +161,6 @@ const newTask = tasks.create({ task: 'New Task', due_date: '2023-12-31' });
 newTask.update({ task: 'Updated Task' });
 newTask.delete();
 ```
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
